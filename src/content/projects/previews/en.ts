@@ -1,40 +1,33 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
+import thumbnailKrishify from "../../../assets/images/projects/kirshify.png";
+import thumbnailBookBazzar from "../../../assets/images/projects/bookbazzar.png";
+import thumbnailEventManager from "../../../assets/images/projects/event.png";
+import thumbnailBybit from "../../../assets/images/projects/bybits.png";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer strategy game",
+    title: "Krishify",
+    slug: "krishify",
+    thumbnail: thumbnailKrishify,
+    description: "MERN agritech platform",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer gaming platform",
+    title: "BookBazzar",
+    slug: "bookbazzar",
+    thumbnail: thumbnailBookBazzar,
+    description: "Books e-commerce marketplace",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D adventure game",
+    title: "Event Management Platform",
+    slug: "eventmanager",
+    thumbnail: thumbnailEventManager,
+    description: "TypeScript event planning tool",
   },
   {
-    title: "WebGL Particles",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamic 3D particles",
-  },
-  {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-source learning project",
+    title: "Bybit",
+    slug: "bybit",
+    thumbnail: thumbnailBybit,
+    description: "URL shortener with analytics",
   },
 ] as const satisfies ProjectPreview[];

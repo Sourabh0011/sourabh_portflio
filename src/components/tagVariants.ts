@@ -7,7 +7,12 @@ export type TagVariant =
   | "html"
   | "css"
   | "javascript"
+  | "typescript"
   | "node"
+  | "express"
+  | "mongodb"
+  | "tailwind"
+  | "jwt"
   | "next"
   | "kubernetes"
   | "postgresql"
@@ -23,7 +28,12 @@ export const tagLabels = {
   html: "HTML",
   css: "CSS",
   javascript: "JavaScript",
+  typescript: "TypeScript",
   node: "Node.js",
+  express: "Express.js",
+  mongodb: "MongoDB",
+  tailwind: "Tailwind CSS",
+  jwt: "JWT",
   next: "Next.js",
   kubernetes: "Kubernetes",
   postgresql: "PostgreSQL",

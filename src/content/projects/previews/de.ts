@@ -1,40 +1,33 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
+import thumbnailKrishify from "../../../assets/images/projects/kirshify.png";
+import thumbnailBookBazzar from "../../../assets/images/projects/bookbazzar.png";
+import thumbnailEventManager from "../../../assets/images/projects/event.png";
+import thumbnailBybit from "../../../assets/images/projects/bybits.png";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer-Strategiespiel",
+    title: "Krishify",
+    slug: "krishify",
+    thumbnail: thumbnailKrishify,
+    description: "MERN-Agritech-Plattform",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer-Gaming-Plattform",
+    title: "BookBazzar",
+    slug: "bookbazzar",
+    thumbnail: thumbnailBookBazzar,
+    description: "Bücher-E-Commerce-Marktplatz",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D-Abenteuerspiel",
+    title: "Event Management Platform",
+    slug: "eventmanager",
+    thumbnail: thumbnailEventManager,
+    description: "TypeScript-Event-Planungstool",
   },
   {
-    title: "WebGL Partikel",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamische 3D Partikel",
-  },
-  {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-Source Lernprojekt",
+    title: "Bybit",
+    slug: "bybit",
+    thumbnail: thumbnailBybit,
+    description: "URL-Shortener mit Analysen",
   },
 ] as const satisfies ProjectPreview[];
