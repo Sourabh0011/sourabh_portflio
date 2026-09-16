@@ -75,12 +75,12 @@ const { withSocial = true } = defineProps<Props>();
           </p>
           <Clickable renderAs="div">
             <Link
-              href="https://soundcloud.com/hmsurf"
+              href="https://www.instagram.com/100rav.jsx/"
               class="footer-link children-unclickable"
               external
               data-cursor="circle-white"
               data-hoversound="hover"
-              >HM Surf</Link
+              >SoraxTune</Link
             >
           </Clickable>
         </div>
